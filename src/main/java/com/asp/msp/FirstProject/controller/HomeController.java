@@ -11,8 +11,5 @@ public class HomeController {
     public String helloWorld() {
         return "Hello World!";
     }
-    @GetMapping("/login")
-    public String login() {
-        return "index"; // Assumes index.html is located in src/main/resources/static
-    }
+
 }
